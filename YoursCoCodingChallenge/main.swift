@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let intersection = Intersection()
+intersection.startRunning()
 
+while true && RunLoop.current.run(mode: .defaultRunLoopMode, before: Date.distantFuture) {}

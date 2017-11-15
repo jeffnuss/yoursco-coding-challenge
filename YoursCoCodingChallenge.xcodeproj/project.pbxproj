@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB98D311FBBC4CE005AE6AB /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D301FBBC4CE005AE6AB /* TrafficLight.swift */; };
+		1FB98D331FBBC515005AE6AB /* TrafficLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D321FBBC515005AE6AB /* TrafficLightController.swift */; };
+		1FB98D351FBBC529005AE6AB /* Lane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D341FBBC529005AE6AB /* Lane.swift */; };
+		1FB98D371FBBC542005AE6AB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D361FBBC542005AE6AB /* Car.swift */; };
+		1FB98D3D1FBBCC30005AE6AB /* Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1EFDA1FB5779300958CEB /* Intersection.swift */; };
+		1FB98D3E1FBBCC30005AE6AB /* Lane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D341FBBC529005AE6AB /* Lane.swift */; };
+		1FB98D3F1FBBCC30005AE6AB /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D301FBBC4CE005AE6AB /* TrafficLight.swift */; };
+		1FB98D401FBBCC30005AE6AB /* TrafficLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D321FBBC515005AE6AB /* TrafficLightController.swift */; };
+		1FB98D411FBBCC30005AE6AB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB98D361FBBC542005AE6AB /* Car.swift */; };
 		1FD1EFC81FB563D900958CEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1EFC71FB563D900958CEB /* main.swift */; };
+		1FD1EFD51FB5649800958CEB /* YoursCoCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1EFD41FB5649800958CEB /* YoursCoCodingChallengeTests.swift */; };
+		1FD1EFDB1FB5779300958CEB /* Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1EFDA1FB5779300958CEB /* Intersection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +34,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FB98D301FBBC4CE005AE6AB /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		1FB98D321FBBC515005AE6AB /* TrafficLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightController.swift; sourceTree = "<group>"; };
+		1FB98D341FBBC529005AE6AB /* Lane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lane.swift; sourceTree = "<group>"; };
+		1FB98D361FBBC542005AE6AB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1FD1EFC41FB563D900958CEB /* YoursCoCodingChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YoursCoCodingChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD1EFC71FB563D900958CEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1FD1EFD21FB5649800958CEB /* YoursCoCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoursCoCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD1EFD41FB5649800958CEB /* YoursCoCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoursCoCodingChallengeTests.swift; sourceTree = "<group>"; };
+		1FD1EFD61FB5649800958CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD1EFDA1FB5779300958CEB /* Intersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1FD1EFC11FB563D900958CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD1EFCF1FB5649800958CEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				1FD1EFC61FB563D900958CEB /* YoursCoCodingChallenge */,
+				1FD1EFD31FB5649800958CEB /* YoursCoCodingChallengeTests */,
 				1FD1EFC51FB563D900958CEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				1FD1EFC41FB563D900958CEB /* YoursCoCodingChallenge */,
+				1FD1EFD21FB5649800958CEB /* YoursCoCodingChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +86,22 @@
 			isa = PBXGroup;
 			children = (
 				1FD1EFC71FB563D900958CEB /* main.swift */,
+				1FD1EFDA1FB5779300958CEB /* Intersection.swift */,
+				1FB98D341FBBC529005AE6AB /* Lane.swift */,
+				1FB98D301FBBC4CE005AE6AB /* TrafficLight.swift */,
+				1FB98D321FBBC515005AE6AB /* TrafficLightController.swift */,
+				1FB98D361FBBC542005AE6AB /* Car.swift */,
 			);
 			path = YoursCoCodingChallenge;
+			sourceTree = "<group>";
+		};
+		1FD1EFD31FB5649800958CEB /* YoursCoCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1EFD41FB5649800958CEB /* YoursCoCodingChallengeTests.swift */,
+				1FD1EFD61FB5649800958CEB /* Info.plist */,
+			);
+			path = YoursCoCodingChallengeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +124,23 @@
 			productReference = 1FD1EFC41FB563D900958CEB /* YoursCoCodingChallenge */;
 			productType = "com.apple.product-type.tool";
 		};
+		1FD1EFD11FB5649800958CEB /* YoursCoCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD1EFD71FB5649800958CEB /* Build configuration list for PBXNativeTarget "YoursCoCodingChallengeTests" */;
+			buildPhases = (
+				1FD1EFCE1FB5649800958CEB /* Sources */,
+				1FD1EFCF1FB5649800958CEB /* Frameworks */,
+				1FD1EFD01FB5649800958CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoursCoCodingChallengeTests;
+			productName = YoursCoCodingChallengeTests;
+			productReference = 1FD1EFD21FB5649800958CEB /* YoursCoCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +152,10 @@
 				ORGANIZATIONNAME = "Jeff Nuss";
 				TargetAttributes = {
 					1FD1EFC31FB563D900958CEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					1FD1EFD11FB5649800958CEB = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,16 +174,45 @@
 			projectRoot = "";
 			targets = (
 				1FD1EFC31FB563D900958CEB /* YoursCoCodingChallenge */,
+				1FD1EFD11FB5649800958CEB /* YoursCoCodingChallengeTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD1EFD01FB5649800958CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FD1EFC01FB563D900958CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB98D351FBBC529005AE6AB /* Lane.swift in Sources */,
+				1FD1EFDB1FB5779300958CEB /* Intersection.swift in Sources */,
+				1FB98D371FBBC542005AE6AB /* Car.swift in Sources */,
 				1FD1EFC81FB563D900958CEB /* main.swift in Sources */,
+				1FB98D331FBBC515005AE6AB /* TrafficLightController.swift in Sources */,
+				1FB98D311FBBC4CE005AE6AB /* TrafficLight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD1EFCE1FB5649800958CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB98D3F1FBBCC30005AE6AB /* TrafficLight.swift in Sources */,
+				1FB98D401FBBCC30005AE6AB /* TrafficLightController.swift in Sources */,
+				1FB98D411FBBCC30005AE6AB /* Car.swift in Sources */,
+				1FB98D3D1FBBCC30005AE6AB /* Intersection.swift in Sources */,
+				1FD1EFD51FB5649800958CEB /* YoursCoCodingChallengeTests.swift in Sources */,
+				1FB98D3E1FBBCC30005AE6AB /* Lane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +343,32 @@
 			};
 			name = Release;
 		};
+		1FD1EFD81FB5649800958CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YoursCoCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffnuss.YoursCoCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1FD1EFD91FB5649800958CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YoursCoCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffnuss.YoursCoCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +386,15 @@
 			buildConfigurations = (
 				1FD1EFCC1FB563D900958CEB /* Debug */,
 				1FD1EFCD1FB563D900958CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD1EFD71FB5649800958CEB /* Build configuration list for PBXNativeTarget "YoursCoCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD1EFD81FB5649800958CEB /* Debug */,
+				1FD1EFD91FB5649800958CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
